@@ -12,7 +12,7 @@ import scala.scalajs.js.annotation.{JSExport, JSExportTopLevel}
 @JSExportTopLevel("weatherSearch")
 object WeatherSearch {
   // 如果这段代码是你从互联网上找到, 请在 http://openweathermap.org 注册一个新的 key
-  val key = "2c222f5b164e9931e3d9844bb9bf275e"
+  val key: String = ???
 
   lazy val box: Input =
     input(
